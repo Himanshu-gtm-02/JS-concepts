@@ -68,4 +68,4 @@ const bigNum1 = 34565463567834628n;
 console.log(typeof bigNum);
 //by applying n in the end , you can see that type changes to bigint
 
-
+const isLoggedin = true; // we don't need to add boolean as a datatype here.
