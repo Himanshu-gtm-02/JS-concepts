@@ -78,3 +78,37 @@ const isLoggedin = true; // we don't need to add boolean as a datatype here.
     => stack memory used in primitive data types.
     => Heap memory used in non-primitive data types(Reference data types).
 */
+
+//---------------------String in JS-----------------------------------------------------------------
+
+const gameName = new String("himanshu-gtm");
+
+//-----------Some method of String-----------
+console.log(gameName.length);
+console.log(gameName.charAt((8)));
+console.log(gameName.toUpperCase());
+console.log(gameName.indexOf('-'));
+
+
+const newString = gameName.substring(0,8); //creates new string as substring from the previous string & last index in not included.
+console.log(newString);
+
+//slice
+const anotherString = gameName.slice(0,4);
+console.log(anotherString);
+const anotherString1 = gameName.slice(-7);
+console.log(anotherString1);
+
+//trim
+const newString1 = '    himanshu    '
+console.log(newString1);
+console.log(newString1.trim()); // remove all the white spaces.
+
+//Replace
+const url = "https://edusitybyme.netlify.app"
+console.log(url.replace('me','us'));
+
+
+
+
+
