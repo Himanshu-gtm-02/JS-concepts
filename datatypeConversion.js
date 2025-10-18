@@ -69,3 +69,12 @@ console.log(typeof bigNum);
 //by applying n in the end , you can see that type changes to bigint
 
 const isLoggedin = true; // we don't need to add boolean as a datatype here.
+
+//-------------Memory in JS--------------------------------------------------------------------------
+/* 
+    1.Stack Memory
+    2.Heap Memory
+
+    => stack memory used in primitive data types.
+    => Heap memory used in non-primitive data types(Reference data types).
+*/
