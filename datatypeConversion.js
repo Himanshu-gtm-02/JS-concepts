@@ -126,8 +126,27 @@ console.log(Math.ceil(4.1)) // agar value 4 se thoda jyada bhi hua to largest va
 console.log(Math.floor(4.9)) // always lowest value lega
 
 
+//---------------Random---------------------
+console.log(Math.random()); // always 0 se 1 ke beech me value dega.
+console.log((Math.random()*10) + 1) // if value hume 0 se 10 k beech me chahiye to 0 se 1 k beech ki value me 10 multiply krdo , and 0 ko avoid krne k liye hum 1 add krte h
+ 
+
+min=10
+max=20
+console.log(Math.floor(Math.random()*(max-min+1))+min)
+
+//----Date and Time-------------------------
+let myDate = new Date();
+console.log(myDate.toString());
+console.log(myDate.toDateString());
+console.log(myDate.toLocaleString());
 
 
+let myCreatedDate = new Date(2023, 0, 23) // custom date and noticable thing is month start with 0.
+console.log(myCreatedDate.toDateString())
+
+let myCreatedDate1 = new Date("2023-01-14")
+console.log(myCreatedDate1.toLocaleString())
 
 
 
