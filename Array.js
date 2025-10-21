@@ -34,4 +34,32 @@ const myn2 = myArr.splice(1,3)
 console.log(myn2) // prints you the indexed 1 , 2  , 3 elements including 3rd index also
 console.log(myArr) // you feel change in the original array, from[1,3] elements got deleted.
 
+const marvel_heroes = ["batman","spiderman"]
+const dc_heroes = ["thor","king"]
+
+// marvel_heroes.push(dc_heroes)
+// console.log(marvel_heroes)
+
+// marvel_heroes.concat(dc_heroes)
+// console.log(marvel_heroes)
+
+const allheroes = marvel_heroes.concat(dc_heroes)
+console.log(allheroes)
+
+const all_new_heroes = [...marvel_heroes, ...dc_heroes]
+console.log(all_new_heroes)
+
+const another_array = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
+const real_another_array = another_array.flat(Infinity)
+console.log(another_array)
+console.log(real_another_array)
+
+console.log(Array.from("Himanshu")) // this will  crate array of the given string.
+console.log(Array.from({name: "Himanshu"})) // isme hume dena pdega ki keys ka array banana h ya values ka , nahi to ye empty array dega
+
+let score_1 = 100
+let score_2 = 200
+let score_3 = 300
+
+console.log(Array.of(score_1,score_2,score_3)) // create array using these three scores.
 
