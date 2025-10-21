@@ -109,6 +109,25 @@ const url = "https://edusitybyme.netlify.app"
 console.log(url.replace('me','us'));
 
 
+//---------------------Math and Number -----------------------------------------------
+const otherNumber = 1123.8966
+console.log(otherNumber.toPrecision(3));
+
+const hundreds = 1000000
+console.log(hundreds.toLocaleString('en-IN'))
+
+//---------------------Math in Js------------------------------------------------------
+console.log(Math.abs(-4)) // convert negative value to positive.
+
+console.log(Math.round(4.3))
+console.log(Math.round(4.6))
+
+console.log(Math.ceil(4.1)) // agar value 4 se thoda jyada bhi hua to largest value ko round figure kreg
+console.log(Math.floor(4.9)) // always lowest value lega
+
+
+
+
 
 
 
