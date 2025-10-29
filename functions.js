@@ -38,3 +38,13 @@ function handleObject(anObject){
 }
 handleObject(user)
 
+
+//if we want to return any of the index's element of the array using a function
+
+const myNewArray = [100,200,300,400]
+function returnSecondArray(getArray){
+    return getArray[1] // we want to return 1st index value
+}
+console.log(returnSecondArray(myNewArray));
+
+ 

@@ -64,3 +64,16 @@ const obj2 = {3: "c", 4: "d"}
 const obj3 = Object.assign({},obj1 , obj2)
 console.log(obj3)
 
+//Object de-structuring
+const Course = {
+   courseName: "js-in-hindi",
+   price: "999",
+   courseInstructor: "hitesh"
+}
+console.log(Course.courseInstructor);
+
+const {courseInstructor} = Course; // This is how we can de-structure the object
+console.log(courseInstructor);
+
+const {courseInstructor: instructor} = Course;
+console.log(instructor);
