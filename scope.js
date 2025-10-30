@@ -96,3 +96,35 @@ console.log(addTwo2(3,4))
 const addOne1 = (num1, num2) => num1 + num2 // no need to write return keyword here until you use {} curly braces after arrow
 console.log(addOne1(2,1))
 
+
+//-----------------------Nullish coalescing operator------------------------------------------------------------------------
+
+
+let val1;
+val1 = 10 ?? 5; // accepts 10 as val1 value
+console.log(val1)
+
+let val2;
+val2 = null ?? 10;
+console.log(val2); // not accepts null , choose 10
+
+let val3;
+val3 = undefined ?? 15;
+console.log(val3);
+
+// ------------------------------------------Terniary Operator------------------------------------------------------------------
+
+let iceTeaPrice = 1
+iceTeaPrice > 5 ? console.log("Yes") : console.log("No");
+
+for(let i = 0 ; i <= 10 ; i++){
+    console.log(i);
+}
+
+//-------------------------------Table--------------------------------------------------------------------------------------------
+
+for(let i = 2 ; i  <= 3 ; i++){
+    for(let j = 1 ; j <= 10 ; j++){
+        console.log(i + 'x' + j + '=' + i*j)
+    }
+}
