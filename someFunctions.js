@@ -54,6 +54,6 @@ const shoppingCart = [
 ]
 
 const  myBill = shoppingCart.reduce((acc,item) => {
-    return acc + item.price;
+    return acc + item.price ;
 },0)
 console.log(myBill);
